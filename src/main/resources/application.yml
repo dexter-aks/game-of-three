@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+websocket:
+  registry-url: /game
+  application-prefix-url: /app
+  relay-topic-url: /topic
+  relay-queue-url: /queue
+  relay-host: localhost
+  relay-port: 61613
+  client-username: guest
+  client-password: guest
