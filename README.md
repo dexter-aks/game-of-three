@@ -24,6 +24,8 @@ This will start RabbitMQ with the management console available at `http://localh
 
 The game will be available at `http://localhost:8080`.
 
+Note: if you face access issue after cloning the repo and then building it, please `run chmod -R 777 . ` from parent directory
+
 ## Playing the Game
 1. Open the game URL in two separate browser tabs or windows to simulate two players.
 2. Each player will be assigned a random player ID displayed on the screen.
